@@ -18,7 +18,7 @@ try:
     system_architecture = {
         ('64bit', 'ELF'): 'amd64',
         ('32bit', 'ELF'): '386',
-    }[platform.platform()]
+    }[platform.architecture()]
 
 except KeyError:
     raise OSError("Unknown platform or architecture: {} {}".format(
