@@ -1,0 +1,10 @@
+build/
+dist/
+dockerfileparser/*.so
+
+*.pyc
+*.egg-info
+
+*.iml
+.idea/
+venv3.7/
